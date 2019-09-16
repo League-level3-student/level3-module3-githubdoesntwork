@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	Skip2 sk2 = new Skip2("This is also a test");
+	System.out.println(sk2);
+	assertEquals("tHIs Is AlSO A tESt", sk2.toString());
 	}
 }
